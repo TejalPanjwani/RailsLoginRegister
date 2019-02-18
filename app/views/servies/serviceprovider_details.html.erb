@@ -1,0 +1,13 @@
+<h1> Add details of service </h1>
+
+<%= form_with scope: :user,url: users_path , local: true do |f| %>
+    
+        <%= f.text_field :image, placeholder: "Image" %> <br><br>
+        <%= f.text_field :service_name, placeholder: ":service_name" %> <br><br>
+        <%= f.text_field :address, placeholder: "address" %> <br><br>
+        <%= f.text_field :city, placeholder: "city" %> <br><br>
+        <%= f.text_field :contacty, placeholder: "contact" %> <br><br>
+        <%= f.text_field :description, placeholder: "description" %> <br><br>
+        <%= f.submit "submit", :name=>"submit" %>
+<% end %>
+

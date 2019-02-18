@@ -1,0 +1,2 @@
+class Servie < ApplicationRecord
+end
